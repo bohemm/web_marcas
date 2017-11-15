@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <h2>ejercicios de formularios</h2>
+            <form action="enviar.php" method="post">
+               
+               
+                    <p>
+                        Provincia: 
+                            <select name="provincia" size= "8" multiple>
+                                <option value="castellon">Castellon</option>
+                                <option value="valencia">Valencia</option>
+                                <option value="alicante">Alicante</option>                   
+                            </select>
+                
+                    </p>
+                    <p>
+                        Provincia 2: 
+                            <select name="provincia2">
+                                <option value="castellon">Castellon</option>
+                                <option value="valencia">Valencia</option>
+                                <option value="alicante">Alicante</option>                   
+                            </select>
+                
+                    </p>
+                <p>e-mail <input type="text" name="email" maxlength="40" size="50px" /></p>
+                <p>Asunto: <input type="text" name="asunto" maxlength="100" /></p>
+                <p>Mensaje: <textarea name="mensaje" cols="30" rows="8"> </textarea></p>  
+                <p>Telefono: <input type="text" name="telefono" maxlength="9"/></p>  
+                <p>Direccion: <input type="text" name="direccion"/></p>        
+                <p>Poblacion: <input type="text" name="poblacion"/></p>         
+                <p>Acepta las normas de la web: <input type="checkbox" name="normas" value="si"/></p>                    
+                
+                <p>Filtra por marca:  <br /> iOS:
+                    <input type="checkbox" name="ioS" value="ios"/>
+                   Android:
+                    <input type="checkbox" name="android" value="android"/>
+                </p>        
+        
+                <p>Password: <input type="password" name="pass"/></p>      
+                <p><input type="hidden" name="categoria"/></p>                      
+                <p>Hombre: <input type="radio" name="sexo" value="h" />Mujer: <input type="radio" name="sexo" value="m" /></p>      
+                <p>Soltero: <input type="radio" name="civil" value="S" />Casado: <input type="radio" name="civil" value="C" /></p>                  
+                <p><input type="submit" name="enviar" value="enviar"></p>
+                <p> <input type="reset" value="borrar" /></p>
+                <p> <input type="image" src="../imagenes/enviar.png" width="90px"</p>
+                
+                
+            </form>
+    
+    </body>
+</html>
